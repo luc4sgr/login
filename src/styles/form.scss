@@ -1,0 +1,28 @@
+button {
+  background-color: var(--pink);
+  padding: 10px;
+  color: var(--shapes);
+  font-weight: bold;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+#title{
+    color: var(--pink);
+    font-size: 3rem;
+    font-style: italic;
+}
+input {
+  font-size: 1.2rem;
+  padding: 5px;
+  &:focus-visible {
+    outline: 2px solid var(--pink);
+    border-radius: 0.25rem;
+    border-color: var(--pink);
+  }
+}
+label {
+    color: var(--pink);
+}
